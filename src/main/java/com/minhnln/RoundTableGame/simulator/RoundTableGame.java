@@ -3,6 +3,10 @@ package com.minhnln.RoundTableGame.simulator;
 import com.minhnln.RoundTableGame.model.RoundTable;
 
 public class RoundTableGame {
-    public void create(RoundTable roundTable, int validNumberOfChildren, int validNumberToSkip) {
+    private RoundTable roundTable;
+
+    public void create(RoundTable roundTable, int numberOfChildren, int numberToSkip) {
+        this.roundTable = roundTable;
+        roundTable.init(numberOfChildren, numberToSkip);
     }
 }
