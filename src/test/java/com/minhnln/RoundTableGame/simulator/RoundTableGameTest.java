@@ -1,6 +1,9 @@
 package com.minhnln.RoundTableGame.simulator;
 
+import com.minhnln.RoundTableGame.model.RoundTable;
 import org.junit.Test;
+
+import static org.mockito.Mockito.*;
 
 public class RoundTableGameTest {
 
